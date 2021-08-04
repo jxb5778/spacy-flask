@@ -20,6 +20,7 @@
 .vagrant
 .noseids
 .ipynb_checkpoints
+.spyproject
 .tags
 .cache/
 .vscode/
