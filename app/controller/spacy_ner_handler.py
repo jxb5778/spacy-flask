@@ -13,6 +13,8 @@ class SpacyNERHandler(BaseHandler):
         self.is_initialized = True
 
     def preprocess(self, data):
+        if isinstance(data, (bytes, bytearray)):
+            data = data.decode('utf-8')
         return data
 
     def inference(self, data):
