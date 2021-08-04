@@ -18,3 +18,13 @@ and install the requirements.txt.
 
 4. That's it! Your local environments should be set up and ready to run!
 
+---
+
+## Scripts
+Here's the script to test using the API
+
+1. scripts/run_test_api.py
+    1. You first need to start the API endpoint, either in your IDE 
+    or with GUnicorn.
+    2. This script sends the example text to the endpoint
+     and decodes the response.
