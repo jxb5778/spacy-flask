@@ -1,0 +1,1 @@
+curl -H "Content-type: text/plain" -d "Justin lives in D.C." 127.0.0.1:5000/ner

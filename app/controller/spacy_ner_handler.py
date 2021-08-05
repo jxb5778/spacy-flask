@@ -49,5 +49,5 @@ class SpacyNERHandler(BaseHandler):
         return self.handle(data)
 
 
-spacy_ner_handler = SpacyNERHandler()
-spacy_ner_handler.initialize()
+spacy_ner = SpacyNERHandler()
+spacy_ner.initialize()
